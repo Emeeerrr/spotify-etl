@@ -38,5 +38,5 @@ Para programar y ejecutar un DAG en Apache Airflow:
 
 - Asegúrate de revisar y cumplir con las directrices de la API de Spotify, especialmente en lo que respecta a la autenticación y la tasa de límites de solicitud.
 - El DAG `Spotify ETL` está diseñado para ejecutarse una vez al día, extrayendo las canciones reproducidas en las últimas 24 horas.
-- El DAG `Spotify ETL con Token Refresh` está diseñado para ejecutarse cada hora en el minuto 20, asegurando que el access token siempre esté actualizado.
+- El DAG `Spotify ETL con Token Refresh` está diseñado para ejecutarse cada hora en el minuto 30, asegurando que el access token siempre esté actualizado.
 
