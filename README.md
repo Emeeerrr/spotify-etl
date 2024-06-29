@@ -6,11 +6,11 @@ Esta carpeta contiene los Directed Acyclic Graphs (DAGs) utilizados para program
 
 ### Spotify ETL
 
-Este DAG realiza un proceso ETL para extraer tus canciones reproducidas recientemente de Spotify, transformar los datos y cargarlos en una base de datos SQLite. Utiliza la API de Spotify para obtener los datos y requiere un token de autenticación válido.
+Este DAG realiza un proceso ETL para extraer tus canciones reproducidas recientemente de Spotify, transformar los datos y cargarlos en una base de datos SQLite. Utiliza la API de Spotify para obtener los datos y requiere un token de autenticación válido que debe ser ingresado por el usuario, es decir, HARD CODED.
 
 ### Spotify ETL con Token Refresh
 
-Este DAG es una versión mejorada del anterior, que también maneja la actualización automática del token de acceso de Spotify utilizando un refresh token. Se programa para ejecutarse cada hora en el minuto 20 y asegura que el access token siempre esté actualizado antes de ejecutar el proceso ETL.
+Este DAG es una versión mejorada del anterior, que también maneja la actualización automática del token de acceso de Spotify utilizando un refresh token. Se programa para ejecutarse cada hora en el minuto 30 y asegura que el access token siempre esté actualizado antes de ejecutar el proceso ETL.
 
 ## Cómo Programar un DAG
 
